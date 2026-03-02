@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 3075296022516423142}
   - component: {fileID: 4821965961658837394}
   - component: {fileID: 2184195794826609340}
-  m_Layer: 0
+  - component: {fileID: 4941623758874433590}
+  m_Layer: 8
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,3 +184,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac145cd59fcf546478b5f39be166ace5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
+--- !u!114 &4941623758874433590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9006859165047055147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c233f03c655e73d458d1f837a0c26110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHp
