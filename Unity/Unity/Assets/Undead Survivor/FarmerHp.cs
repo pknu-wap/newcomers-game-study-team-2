@@ -8,6 +8,6 @@ public class FarmerHp : MonoBehaviour
     public void TakeDamage(float damage)
     {
         _currentHp -= damage;
-        Debug.Log("농부 체력: " + _currentHp)
+        Debug.Log("농부 체력: " + _currentHp);
     }
 }
