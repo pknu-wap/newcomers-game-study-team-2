@@ -185,6 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e8805a7a58008438898e8fcaa87803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  expChip: {fileID: 3477972692628792704, guid: 655f01a3e4870c34eb97a85f7794afea, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,6 +338,7 @@ GameObject:
   - component: {fileID: 536299389}
   - component: {fileID: 536299390}
   - component: {fileID: 536299391}
+  - component: {fileID: 536299392}
   m_Layer: 7
   m_Name: Farmer
   m_TagString: Player
@@ -537,6 +539,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c662c99ab2439445a53e6a27c48f713, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FarmerHp
+--- !u!114 &536299392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536299384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d40bb5b56c9f94b804883827fbf0f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,11 +812,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7459567854919373327, guid: 362414e904778b240a976a44cf3eaf50, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.59
+      value: -1.57
       objectReference: {fileID: 0}
     - target: {fileID: 7459567854919373327, guid: 362414e904778b240a976a44cf3eaf50, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.59
+      value: -2.65
       objectReference: {fileID: 0}
     - target: {fileID: 7459567854919373327, guid: 362414e904778b240a976a44cf3eaf50, type: 3}
       propertyPath: m_LocalPosition.z
