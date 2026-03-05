@@ -1,2 +1,12 @@
 fileFormatVersion: 2
 guid: 17d40bb5b56c9f94b804883827fbf0f8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - LevelUpPanel: {fileID: 5999646089618536902, guid: ca630112bd257634dab78ee771f499f6, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

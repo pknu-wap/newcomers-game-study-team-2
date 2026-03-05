@@ -22,4 +22,9 @@ public class FarmerLevel : MonoBehaviour
         
 
     }
+    public void LevelUp(int index)
+    {
+        LevelUpPanel.SetActive(false);
+        TimeController.ResumeGame();
+    }
 }
