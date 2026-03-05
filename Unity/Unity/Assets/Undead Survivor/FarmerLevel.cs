@@ -18,6 +18,7 @@ public class FarmerLevel : MonoBehaviour
             LevelUpPanel.SetActive(true);
             TimeController.PauseGame();
         }
+
         Debug.Log("레벨: " + _level + " 경험치: " + _currentExp);
         
 
