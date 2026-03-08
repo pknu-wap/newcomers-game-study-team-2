@@ -616,6 +616,7 @@ Transform:
   m_Children:
   - {fileID: 1296820366}
   - {fileID: 1210976707}
+  - {fileID: 1221485783}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &564441311
@@ -660,6 +661,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a671b89fe192bdf478d6c63622f054cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FarmerMovement
+  _moveDirection: {x: 0, y: 0, z: 0}
+  _lastDirection: {x: 1, y: 0, z: 0}
 --- !u!114 &564441313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -984,6 +987,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
   radius: 8
   enemyPrefab: {fileID: 9006859165047055147, guid: 552b3adc51e7af841bf290626cf02e87, type: 3}
+--- !u!1 &1221485782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1221485783}
+  - component: {fileID: 1221485784}
+  m_Layer: 6
+  m_Name: Pitchfork_Launcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1221485783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221485782}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 564441310}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1221485784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221485782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c801b6d71075b264e81d5d8be465c608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PitchforkLaunch
+  pitchforkPrefab: {fileID: 8040639684123857775, guid: 2704697832507d343a4bcbf6c165d677, type: 3}
 --- !u!1 &1296820365
 GameObject:
   m_ObjectHideFlags: 0
@@ -1127,6 +1175,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf5534a42d76d274e9aad8d2e4e02257, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WeaponDamage
+  Damage: 20
+  destroyOnHit: 0
 --- !u!114 &1296820370
 MonoBehaviour:
   m_ObjectHideFlags: 0
