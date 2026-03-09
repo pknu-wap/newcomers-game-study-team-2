@@ -14,4 +14,12 @@ public class ProjectileMove : MonoBehaviour
     {
         transform.position += (Vector3)(speed * finalDirection * Time.deltaTime);
     }
+
+    private void OTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }
