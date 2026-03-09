@@ -1,5 +1,3 @@
-using TreeEditor;
-using UnityEditorInternal;
 using UnityEngine;
 
 public class BoomerangMove : MonoBehaviour
